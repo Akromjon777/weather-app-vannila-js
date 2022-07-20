@@ -22,7 +22,6 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   function displayResults(weather) {
-    console.log(weather);
     let city = document.querySelector(".location .city");
     city.innerHTML = `${weather.name}, ${weather.sys.country}`;
 
